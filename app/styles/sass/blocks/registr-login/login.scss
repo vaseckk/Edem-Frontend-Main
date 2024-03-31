@@ -1,0 +1,208 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/pagestwo/registration.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 100%;
+    background-color: #000;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.home__parametrs {
+    color: #fff;
+    font-family: forum-oh5, sans-serif;
+}
+
+.home__top {
+    margin: 25px 30px;
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: #fff;
+    font-family: forum-oh5;
+}
+
+//BLOCK
+
+.login__block{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: $accent;
+}
+
+.poloska__login {
+	flex: 0 0 140px;
+    margin-left: -210px;
+    margin-top: 40px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	&::before {
+        content: '';
+        height: 1px;
+        width: 200px;
+        background-color: #666080;
+        border-radius: 100%;
+    }
+}
+
+.login__text-block {
+    text-transform: uppercase;
+    letter-spacing: 55px;
+    font-size: 40px;
+    margin-left: 14%;
+    margin-top: 10px;
+}
+
+.poloska__login-dublicate {
+	flex: 0 0 140px;
+    margin-left: 360px;
+    margin-top: 40px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	&::before {
+        content: '';
+        height: 1px;
+        width: 200px;
+        background-color: #666080;
+        border-radius: 100%;
+    }
+}
+
+
+.login__p1 {
+    text-decoration: none;
+    color: $accent;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: auto;
+    text-align: center;
+    opacity: .7;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    &:hover{
+        color: #fff; /* Меняем цвет текста */
+        opacity: .9;
+        }
+}
+
+//BUTTON ONE
+
+.login__login {
+    display: flex;
+    background-color: #666080;
+    opacity: .9;
+    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    margin: 90px auto 35px;
+	transition: background .25s ease-out;
+	&:hover {
+		background-color: $accent;
+	}
+}
+
+.ln__text {
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin: auto;
+}
+
+//BUTTON TWO
+
+.login__password {
+    display: flex;
+    background-color: #666080;
+    opacity: .9;
+    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: auto;
+    transition: background .25s ease-out;
+	&:hover {
+		background-color: $accent;
+	}
+}
+
+.pd__text {
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin: auto; 
+}
+
+.sikl__login {
+	flex: 0 0 140px;
+    margin-left: 60px;
+    margin-top: 407.5px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	&::before {
+        content: '';
+        height: 20px;
+        width: 20px;
+        background-color: #666080;
+        border-radius: 100%;
+    }
+}
+
+
+.login__profile {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 60px auto ;
+    text-align: center;
+    color: $accent;
+    opacity: .7;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    &:hover{
+        color: #fff; /* Меняем цвет текста */
+        opacity: .9;
+        }
+    }
+
+//BUTTON THREE
+
+.login__button {
+    display: flex;
+    background-color: #161225;
+    opacity: .9;
+    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    margin: auto;
+    border: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+	&:hover {
+		background-color: #342c51;
+        opacity: .9;
+	}
+}
+
+.ln__h1 {
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 10px;
+    margin: auto;
+    color: $accent;
+}

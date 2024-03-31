@@ -1,0 +1,164 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/pagestwo/registration.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 100%;
+    background-color: #000;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.home__parametrs {
+    color: #fff;
+    font-family: forum-oh5, sans-serif;
+}
+
+.home__top {
+    margin: 25px 30px;
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: #fff;
+    font-family: forum-oh5;
+}
+
+.registration__block{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: $accent;
+}
+
+.regist__text {
+    text-transform: uppercase;
+    letter-spacing: 35px;
+    font-size: 40px;
+    margin: auto;
+    //position: absolute;
+}
+
+.registr__p1 {
+    display: block;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 10px auto 50px;
+    text-align: center;
+    opacity: .9;
+}
+
+.registr__login {
+    display: flex;
+    background-color: #666080;
+    opacity: .9;
+    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    margin: auto;
+	transition: background .25s ease-out;
+	&:hover {
+		background-color: $accent;
+	}
+}
+
+.login__text {
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin: auto;
+}
+
+.registr__password {
+    display: flex;
+    background-color: #666080;
+    opacity: .9;
+    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 35px auto;
+    transition: background .25s ease-out;
+	&:hover {
+		background-color: $accent;
+	}
+}
+
+.password__text {
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin: auto; 
+}
+
+.registr__password-dublicate {
+    display: flex;
+    background-color: #666080;
+    opacity: .9;
+    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    margin: auto;
+    border: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+	&:hover {
+		background-color: $accent;
+	}
+}
+
+.password__text-dublicate {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: auto;
+}
+
+.registr__profile {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 30px auto;
+    text-align: center;
+    color: $accent;
+    opacity: .7;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    &:hover{
+        color: #fff; /* Меняем цвет текста */
+        opacity: .9;
+        }
+    }
+
+.registr__button {
+    display: flex;
+    background-color: #161225;
+    opacity: .9;
+    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    margin: auto;
+    border: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+	&:hover {
+		background-color: #342c51;
+        opacity: .9;
+	}
+}
+
+.registr__h1 {
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 10px;
+    margin: auto;
+    color: $accent;
+}
